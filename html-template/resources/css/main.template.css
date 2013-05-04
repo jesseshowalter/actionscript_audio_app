@@ -1,0 +1,45 @@
+body{
+	background:#151E25;
+}
+
+#wrapper{
+	width:${width}px;
+	height:auto;
+	margin:150px auto 0 auto;
+	text-align: center;
+}
+
+h1{
+	color:#FFF;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 1.8em;
+	border-bottom:1px solid #000000;
+	box-shadow:0 1px 0 #2A3D4C;
+	padding:0 0 10px 0;
+	text-shadow:-2px -2px 0 #000;
+	text-transform: uppercase;
+}
+
+h2{
+	color:#FFF;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 1.3em;
+	text-shadow:-2px -2px 0 #000;
+}
+
+a:link, a:visited{color:#E2CB6D; -webkit-transition:all 0.4s ease-in-out; -moz-transition:all 0.4s ease-in-out; transition:all 0.4s ease-in-out; text-decoration: none;}
+a:hover{color:#B75E14;}
+
+.swf{
+	width:${width}px;
+	height:${height}px;
+	margin:0 auto;
+	background:#FFF;
+	box-shadow:4px 4px 0 #E2CB6D, 8px 8px 0 #B79238, 12px 12px 0 #B75E14;
+
+}
+
+img.logo{
+	margin:30px auto 0 auto;
+	width:64px; height:auto;
+}
